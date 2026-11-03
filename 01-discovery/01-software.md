@@ -15,15 +15,14 @@
 | **Popularidade (31/10/2026)** | 35.517 estrelas, 3.365 forks, 21 itens abertos (issues + PRs). Criado em 24/10/2013. | `[GH]` `api.github.com/repos/raysan5/raylib` |
 
 
-## Posicionamento: o que o raylib *não* faz (limitações declaradas)
+## Posicionamento: o que o raylib *não* faz 
 
 `[L]` `README.md:56-65`: janela única com um contexto OpenGL; redimensionar/mover pausa o laço em algumas plataformas;
 `RenderTexture` vem invertida; rasterização de fontes inferior ao Freetype; **sem RTL, ligaduras ou emojis** no desenho de texto.
-Também é filosofia assumida: "sem interface, sem ajudantes visuais, sem botão de debug… só código" (`README.md:7`).
+Também é filosofia assumida: "sem interface, sem ajudantes visuais, sem botão de debug, só o código" (`README.md:7`).
 
 ## Personas e Jobs to Be Done (JTBD)
 
-> **Como as personas foram obtidas:** são arquétipos **derivados de documentos do projeto** (README, HISTORY, CONTRIBUTING, BINDINGS, CHANGELOG)
 
 ### Persona 1 — Estudante iniciante de programação de jogos
 
