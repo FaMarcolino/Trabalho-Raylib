@@ -14,11 +14,6 @@
 | **Escala** | ~59,6 mil linhas de código próprio em `src/` (sem `external/`), ~266 mil linhas de bibliotecas externas embutidas, 228 arquivos `.c` em `examples/` (README diz "+220"). | `[M]` contagem PowerShell no snapshot |
 | **Popularidade (31/10/2026)** | 35.517 estrelas, 3.365 forks, 21 itens abertos (issues + PRs). Criado em 24/10/2013. | `[GH]` `api.github.com/repos/raysan5/raylib` |
 
-> **Nota de versão:** o `CHANGELOG` (linha 4) declara "Current Release: raylib 6.2 (15 October 2026)" e o selo do README diz "commits since 6.2",
-> mas `raylib.h:89-92` do `master` diz `RAYLIB_VERSION "6.5-dev"`. Não é inconsistência: **6.2 é a última release publicada** e **6.5-dev é a versão em desenvolvimento**;
-> o `master` recebeu commits depois da tag 6.2. Portanto o código analisado é "release 6.2 + commits posteriores", não exatamente a release 6.2.
-> Por isso fixamos o commit analisado: **`2f4b7d8e9f4aef3d5ed81a683b54594849e9d7a7`** (`master` do fork `FaMarcolino/raylib` em 01/11/2026;
-> é o commit "Add bindings for Goose (#6350)", de 31/10/2026). Os 120 testes foram executados também sobre este commit.
 
 ## Posicionamento: o que o raylib *não* faz (limitações declaradas)
 
